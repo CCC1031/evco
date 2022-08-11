@@ -4,6 +4,6 @@ Evco is an electric vehicle maintanance service.
 
 
 
-## Documentation
+## Link
 
-[Documentation](evco.netlify.app)
+evco.netlify.app
