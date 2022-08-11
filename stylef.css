@@ -60,7 +60,7 @@
  }
 .sub-section{ 
      position: absolute;
-     border: 3px solid black; 
+     /* border: 3px solid black;  */
      height: 50%;
      width: 75%; 
      top: 330px;
