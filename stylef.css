@@ -162,4 +162,15 @@
 }
 .text-muted {
     cursor: pointer;
+    text-decoration: none;
+}
+
+#text-link {
+    background-color: transparent;
+    /* font-size: 40px; */
+}
+
+#text-link:hover {
+    color: white;
+    font-size: 20px;
 }
