@@ -150,17 +150,16 @@
 }
 /* phone navbar */
 .text-white {
-    /* padding: 0 50%; */
-    margin: 0 50%; 
+    /* margin: 0 50%;  */
     padding: 15px 0; 
+    text-align: center;
 }
-.menu{
-    /* padding: 0 50%; */ 
-    margin: 0 50%;
+.menu {
+    text-align: center;
+    margin: 0; 
+    padding-right: 35px; 
+
 }
- #text-one { 
-   
-}
-#text-two {
-    padding-top: 40px;
+.text-muted {
+    cursor: pointer;
 }
