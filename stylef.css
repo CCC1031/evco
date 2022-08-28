@@ -20,7 +20,7 @@
         height: auto; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
-        -o-background-size: cover;                        
+        -o-background-size:cover;                        
  }
  body, html {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -107,3 +107,45 @@
  .move {
      padding: 20px 215px;
  }
+
+ @media (max-width: 575.98px) {
+        html, body {
+            width: 100%;
+            height: 100%;
+            background-size:cover;
+            background-repeat: no-repeat;
+            background: linear-gradient(180deg,
+                       rgba(0,0,0,0.3) 50%,
+                       rgba(0,0,0,0.3) 100%),
+                        url("img/car.jpg") fixed;  
+    }
+}
+
+@media (max-width: 768px) {
+        html, body {
+            width: 100%;
+            height: 100%;
+              margin:0;
+              padding: 0;
+              overflow-x: hidden;
+
+            }
+        }
+
+@media (min-width: 768px) {
+    .pos-f-t {
+        display: none; 
+    }
+}
+
+@media (max-width: 518px) {
+    #container {
+        display: none; 
+    }
+}
+@media (max-width: 768px) {
+    #container {
+        display: none; 
+    }
+}
+
