@@ -136,14 +136,6 @@ a:hover {
     background-color: black;
     color: white;
 }
-/* .color {
-     background-color:white; 
-     height: 160px;
-     width: 102%; 
-     margin: -9px; 
-     margin-left: -5;
-     margin-right: -10;
-} */
 
 
  /* @media (max-width: 575.98px) {
@@ -158,20 +150,28 @@ a:hover {
                         url("img/car.jpg") fixed;  
     }
 }  */
- @media (min-width: 820px) {
+
+/* media queries */
+@media (min-width: 48em) {
+    .pos-f-t {
+        display: none; 
+    }  
     html, body {
-        overflow-x: hidden;
-    }
-    .container {
-        position: relative; 
-        left: -70px; 
-    }
-    .main-menu {
-        position: relative; 
-        left: 305px; 
-        padding: 300px;
+        overflow: hidden;
     }
 }
+@media (max-width: 48em) {
+    .navbar-list {
+        display: none; 
+    }  
+    html, body {
+        overflow: hidden;
+    }
+}
+
+
+
+
 /*
 @media (max-width:1250px) {
     html, body {
@@ -245,6 +245,8 @@ a:hover {
         display: none; 
     }
 } */
+
+
 /* phone navbar */
 .text-white {
     /* margin: 0 50%;  */
