@@ -3,8 +3,11 @@
 
     --ff-heading: var(--subtitle-font);
 
-    --fs-400: 3rem; /*48px */
-     --secondary-heading: var(--fs-400); 
+    --fs-300: 1.5rem; /*24px */
+    --fs-400: 1.5rem; /*16px */
+
+    --fs-primary-heading: var(--fs-400);
+    /* --fs-secondary-heading: var(--fs-400);  */
 }
 body {
     background: linear-gradient(180deg,
@@ -132,6 +135,7 @@ a:hover {
     html, body {
         overflow: hidden;
     }
+  
 }
 @media (max-width: 48em) {
     .navbar-list {
@@ -139,6 +143,12 @@ a:hover {
     }  
     html, body {
         overflow: hidden;
+    }
+    .title {
+        font-size: 1.5rem;
+    }
+    .subtitle { 
+        font-size: 1.8rem;
     }
 }
 
